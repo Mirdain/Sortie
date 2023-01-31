@@ -4,7 +4,7 @@
 Addon to help keep track of objectives
 
 Example of the use can be found on my Youtube channel
-https://www.youtube.com/watch?v=RjJdaFvuD8Q&t=3092s
+https://youtu.be/RjJdaFvuD8Q?t=3084
 
 How it works:
 
