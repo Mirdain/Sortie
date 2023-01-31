@@ -3,6 +3,9 @@
 # Sortie
 Addon to help keep track of objectives
 
+Example of the use can be found on my Youtube channel
+https://www.youtube.com/watch?v=RjJdaFvuD8Q&t=3092s
+
 How it works:
 
 A display should pop up upon entering sortie if loaded prior to entering.
