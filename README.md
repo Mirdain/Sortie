@@ -36,5 +36,10 @@ Extra commands
 //st scan x - tests to see if the mob is found (Mob index)
 
 
-**Note - clicking does not work you are likely in windowed mode**
+**Note - If clicking does not work you are likely in windowed mode**
+
+The Task Bar is 50px and the Title bar is 25px so your resolution will not be 1080 but 75px less.
+
+To correct the issue use the below setting for proper game resolutions
+![image](https://user-images.githubusercontent.com/34732910/216225245-1a005ad8-e697-4073-9acc-62e114ac0367.png)
 
