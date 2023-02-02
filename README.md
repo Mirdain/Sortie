@@ -1,5 +1,6 @@
 ![Sortie Addon](https://user-images.githubusercontent.com/34732910/215006840-58f664e5-f21e-4b06-8797-56fe369b9ca0.PNG)
 
+
 # Sortie
 Addon to help keep track of objectives
 
@@ -33,3 +34,7 @@ Extra commands
 //st track x - tracks the mob by sending a widescan request (Mob index)
 
 //st scan x - tests to see if the mob is found (Mob index)
+
+
+**Note - clicking does not work you are likely in windowed mode**
+
