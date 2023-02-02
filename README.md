@@ -15,7 +15,7 @@ Select your zone by clicking on the [x] zone or typing //st x
 
 Tracking enemies is done via a widescan packet request.
 
-As such - you havae to be in the correct floor to track a mob.
+As such - you have to be on the correct floor to track a mob.
 
 A/B/C/D can be tracked anywhere "upstairs" but each basement must be entered before it can be tracked.
 
@@ -30,10 +30,9 @@ Extra commands
 //st track x - tracks the mob by sending a widescan request (Mob index)  
 //st scan x - tests to see if the mob is found (Mob index)  
 
-
 **Note - If clicking does not work you are likely in windowed mode**
 
-The Task Bar is 50px and the Title bar is 25px so your resolution will not be 1080 but 75px less.
+The window taskbar is 50px and the Title bar is 25px so your resolution will not be 1080 but 75px less.
 
 To correct the issue use the below setting for proper game resolutions
 
