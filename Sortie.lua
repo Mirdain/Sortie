@@ -50,7 +50,7 @@ end)
 windower.register_event('zone change', function()
     local world = windower.ffxi.get_info()
     initalize()
-    if world.zone == 133 then
+    if world.zone == 133 or world.zone == 189 then
         coroutine.sleep(4)
         show_UI()
         enabled = true
@@ -65,7 +65,7 @@ end)
 windower.register_event('load', function()
     local world = windower.ffxi.get_info()
     initalize()
-    if world.zone == 133 then
+    if world.zone == 133 or world.zone == 189 then
         enabled = true
         show_UI()
         log('Zoned is Outer Ra\'Kaznar [U2]')
@@ -147,7 +147,6 @@ function tracking_box_update()
     local maxWidth = 41
     local bitzer_distance = 0
     local player = windower.ffxi.get_mob_by_target('me')
-
     lines:insert("            Current Area ["..location.."]")
     lines:insert("")
     if location == "A" then
@@ -195,12 +194,11 @@ function tracking_box_update()
         lines:insert("Casket #D2")
         lines:insert("  WAR->MNK->WHM->BLM->RDM->THF")
         lines:insert("Coffer #D")
-        lines:insert("  Kill 3x enemies of same job as NM")
+        lines:insert("  Kill 3x enemies after NM")
         lines:insert("Chest #D")
         lines:insert("  Do a 4-step skillchain 3x times")
     elseif location == 'E' then
         -- E Basement
-        -- 411 is test target (entry bitzer)
         bitzer_status = windower.ffxi.get_mob_by_index(836)
         lines:insert(mob_tracking[5].name ..string.format('[%s]',tostring(mob_tracking[5].distance)):lpad(' ',maxWidth - string.len(mob_tracking[5].name)))
         if bitzer_status then
